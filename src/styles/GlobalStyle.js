@@ -114,10 +114,7 @@ const GlobalStyle = createGlobalStyle`
         padding-bottom: .6rem;
     }
 
-    .nav-toggle {
-        transform: translateX(0);
-        z-index: 20;
-    } 
+    
 
     .u-margin.bottom {
         margin-bottom: 4rem;
@@ -164,10 +161,17 @@ const GlobalStyle = createGlobalStyle`
 
   
 
+  
+
   @media screen and (max-width: 1200px){
       .ham-burger-menu {
         display: block;
       }
+
+      .nav-toggle {
+        transform: translateX(0);
+        z-index: 20;
+    } 
   }
 
   // global mediaquery =============

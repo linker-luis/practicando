@@ -22,8 +22,6 @@ const SidebarStyled = styled.div`
         transform: translate(-100%);
         z-index: 20;
     }
-
-    
 `
 
 export default Sidebar
