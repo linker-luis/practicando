@@ -75,11 +75,9 @@ const NavigationStyled = styled.nav`
             border: 8px solid var(--border-color);
         }
     }
-
     .nav-items {
         width: 100%;
-        text-align: center;
-        
+        text-align: center;      
 
         li {
             display: block;
